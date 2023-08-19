@@ -12,5 +12,5 @@ requires = ["setuptools>=64.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-k2dg = "k2dg.__main__:main"
+k2dg = "k2dg._cli:run_cli"
 
