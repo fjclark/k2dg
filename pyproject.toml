@@ -5,7 +5,7 @@ description = "A simple command line app to interconvert dissociation constants 
 authors = [{name = "Finlay Clark"}]
 readme = "README.md"
 requires-python = ">=3.9.0"
-dependencies = ["numpy", "scipy", "pint", "pytest"]
+dependencies = ["numpy", "scipy", "pint", "pytest", "pytest-cov"]
 
 [build-system]
 requires = ["setuptools>=64.0.0", "wheel"]
