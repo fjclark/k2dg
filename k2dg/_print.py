@@ -24,6 +24,6 @@ def _print_kd0(kd0: Quantity) -> None:
             return
     # The value is less than 0.1 pM or greater than 100 M
     if kd < 1e-10:
-        print(f"{kd / 1e-12:#.3g} fM")
+        print(f"{kd / 1e-15:#.3g} fM")
     else:
         print(f"{kd:#.3g} M")

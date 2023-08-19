@@ -25,6 +25,10 @@ def test_print_kd0(capsys):
     captured = capsys.readouterr()
     assert captured.out == "10.0 mM\n"
 
-    _print_kd0(Q_(1e2, "M"))
+    _print_kd0(Q_(1e4, "M"))
     captured = capsys.readouterr()
-    assert captured.out == "100. M\n"
+    assert captured.out == "1.00e+04 M\n"
+
+    _print_kd0(Q_(1e-16, "M"))
+    captured = capsys.readouterr()
+    assert captured.out == "0.100 fM\n"

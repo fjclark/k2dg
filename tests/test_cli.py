@@ -1,5 +1,5 @@
 from io import StringIO
-from unittest.mock import patch, Mock
+from unittest.mock import patch
 from k2dg._cli import run_cli  # Replace 'your_module' with the actual module name
 
 
