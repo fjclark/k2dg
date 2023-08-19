@@ -5,11 +5,16 @@ description = "A simple command line app to interconvert dissociation constants 
 authors = [{name = "Finlay Clark"}]
 readme = "README.md"
 requires-python = ">=3.9.0"
-dependencies = ["numpy", "scipy", "pint", "pytest", "pytest-cov"]
+dependencies = ["numpy", "scipy", "pint"]
 
 [build-system]
 requires = ["setuptools>=64.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+dev = ["black", "flake8", "isort", "pre-commit"]
+
 
 [project.scripts]
 k2dg = "k2dg._cli:run_cli"
