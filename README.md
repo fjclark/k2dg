@@ -30,5 +30,5 @@ k2dg 2dg 0.3 uM
 Or, to convert a free energy of -9.4 kcal/mol to a dissociation constant at 310 K:
 
 ```bash
-k2dg k2dg -9.4 kcal/mol -t 310
+k2dg 2kd -9.4 kcal/mol -t 310
 ```
