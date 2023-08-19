@@ -5,7 +5,7 @@ k2dg
 [![codecov](https://codecov.io/gh/fjclark/k2dg/branch/main/graph/badge.svg?token=UMH0OUSUJY)](https://codecov.io/gh/fjclark/k2dg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A command line tool to convert between dissociation constants and free energies.
+A command line tool to convert from dissociation constants to free energies and vice versa.
 
 ## Installation
 

@@ -18,7 +18,7 @@ def run_cli() -> None:
 
     global_parser = argparse.ArgumentParser(prog="k2dg")
     global_parser.add_argument(
-        "-v", "--version", action="version", version="%(prog)s 0.1.0"
+        "-v", "--version", action="version", version="%(prog)s 0.1.1"
     )
     subparsers = global_parser.add_subparsers(
         title="subcommands",
