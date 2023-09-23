@@ -1,6 +1,6 @@
 [project]
 name = "k2dg"
-version = "0.1.1"
+version = "0.1.2"
 description = "A simple command line app to interconvert dissociation constants and free energies of binding."
 authors = [{name = "Finlay Clark"}]
 readme = "README.md"
